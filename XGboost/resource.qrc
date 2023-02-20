@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/mainwindow.qss</file>
+        <file>imgs/down-arrow.png</file>
+    </qresource>
+</RCC>
