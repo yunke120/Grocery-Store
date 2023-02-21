@@ -204,10 +204,22 @@
               </widget>
              </item>
              <item row="6" column="1">
-              <widget class="QLineEdit" name="lEInvestTime">
-               <property name="text">
-                <string>1-2 Year</string>
-               </property>
+              <widget class="QComboBox" name="cBInvestTime">
+               <item>
+                <property name="text">
+                 <string>&lt; 1 Year</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>1-2 Year</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>&gt; 2 Years</string>
+                </property>
+               </item>
               </widget>
              </item>
              <item row="7" column="0">
@@ -232,41 +244,27 @@
               </widget>
              </item>
              <item row="8" column="0">
-              <widget class="QLabel" name="label_9">
-               <property name="text">
-                <string>股票</string>
-               </property>
-              </widget>
-             </item>
-             <item row="8" column="1">
-              <widget class="QLineEdit" name="lEStock">
-               <property name="text">
-                <string>18863</string>
-               </property>
-              </widget>
-             </item>
-             <item row="9" column="0">
               <widget class="QLabel" name="label_10">
                <property name="text">
                 <string>参数5</string>
                </property>
               </widget>
              </item>
-             <item row="9" column="1">
+             <item row="8" column="1">
               <widget class="QLineEdit" name="lEParam5">
                <property name="text">
                 <string>854</string>
                </property>
               </widget>
              </item>
-             <item row="10" column="0">
+             <item row="9" column="0">
               <widget class="QLabel" name="label_11">
                <property name="text">
                 <string>参数6</string>
                </property>
               </widget>
              </item>
-             <item row="10" column="1">
+             <item row="9" column="1">
               <widget class="QLineEdit" name="lEParam6">
                <property name="text">
                 <string>3638</string>
